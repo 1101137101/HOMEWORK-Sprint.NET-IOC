@@ -8,7 +8,7 @@ namespace KuasCore.Services.Impl
     public class EmployeeService : IEmployeeService
     {
 
-        public IEmployeeDao EmployeeDao = new EmployeeDao();
+        public IEmployeeDao EmployeeDao { get; set; }
 
         public IList<Employee> GetAllEmployees()
         {
