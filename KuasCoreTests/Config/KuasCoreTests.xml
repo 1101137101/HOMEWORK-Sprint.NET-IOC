@@ -5,9 +5,9 @@
   <object id="employeeService" type="KuasCore.Services.Impl.EmployeeService, KuasCore">
     <property name="EmployeeDao" ref="employeeDao" />
   </object>
-  
-  <object id="employeeDao" type="KuasCore.Dao.Impl.EmployeeDao, KuasCore">
-    <property name="AdoTemplate" ref="adoTemplate" />
+
+  <object id="employeeDao" type="KuasCore.Dao.Impl.NewEmployeeDao, KuasCore">
+    <!--<property name="AdoTemplate" ref="adoTemplate" />-->
   </object>
 
 </objects>

@@ -12,13 +12,4 @@ namespace KuasCore.Dao
         Employee GetEmployeeById(string id);
 
     }
-
-    public interface INewEmployeeDao
-    {
-
-        IList<Employee> GetAllEmployees();
-
-        Employee GetEmployeeById(string id);
-
-    }
 }
