@@ -32,12 +32,12 @@ namespace KuasCore.Dao.Impl
 
         public Employee GetEmployeeById(string id)
         {
-            Employee employees = new Employee();
-            employees.Id = "Ming";
-            employees.Name = "許家銘";
-            employees.Age = 21;
+            Employee employee = new Employee();
+            employee.Id = "Ming";
+            employee.Name = "許家銘";
+            employee.Age = 21;
 
-            return employees;
+            return employee;
         }
 
     }
